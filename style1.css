@@ -1,0 +1,96 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    /* text-align: center; */
+}
+
+header {
+    background-color:gray;
+    color: black;
+    /* padding: 40px 20px; */
+    text-align: center;
+}
+header img{
+    height: 200px;
+    width: 99vw;
+}
+nav {
+    background-color: rgb(10, 10, 27);
+    justify-content: center;
+    display: flex;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color:white;
+    color: black;
+}
+.box{
+    margin: 1px;
+    padding: 1px;
+    text-align: center;
+    background-color: rgba(12, 186, 163, 0.74);
+    color: white;
+}
+div{
+    margin: 13px;
+    padding: 11px;
+    /* text-align: center; */
+    font-size: x-large;
+}
+img{
+    width: 33%;
+    height: 320px;
+    /* border: 2px solid ; */
+}
+div img{
+    margin: -150px;
+    padding: 4px;
+    text-align: right;
+}
+p{
+    text-align: right;
+    margin: -34px;
+}
+main{
+    margin: 3px;
+    border: 2px solid ;
+    padding: 150px;
+    background: #989c92;
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 8px;
+    margin: 7px;
+}
+input{
+    margin: 20px;
+    padding: 3px;
+    border-radius: 10px;
+}
+footer{
+    background-color: #090808;
+    color:white;
+    text-align: center;
+    padding: 10px;
+}
+span li{
+    list-style: none;
+    display: inline;
+    margin: 14px;
+    padding: 4px;
+    opacity: 0.8;
+    background-color: white;
+    border-radius: 15px;
+}
+span li:hover{
+    /* background-color:blue; */
+    background:yellow;
+}
