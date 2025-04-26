@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        ul li {
+            list-style: none;
+        }
+        ol li{
+            list-style: none;
+            margin: 8px;
+        }
+        ol{
+            display: flex;
+        }
+        ul {
+            /* background-color:antiquewhite; */
+            background-color: black;
+            display: flex;
+            height: 70px;
+            /* margin: 3px; */
+            /* padding: 4px;  */
+        }
+
+        ul li :nth-child(2) {
+            margin: 0px;
+            padding: 9px;
+        }
+
+        li img {
+            height: 60px;
+            width: 120px;
+            margin: 0px;
+            padding: 9px;
+        }
+
+        .box {
+            /* border: 2px solid black; */
+            width: 46vw;
+            height: 10px;
+            margin: 9px;
+            padding: 14px;
+        }
+
+        ul li button {
+            height: 30px;
+            width: 60px;
+        }
+
+        ul li .box button {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .box select {
+            width: 60px;
+            height: 37px;
+            margin: -3px;
+            padding: 5px;
+        }
+
+        .box select input {
+            margin: 2px;
+            padding: 2px;
+        }
+
+        select option {
+            margin: 5px;
+            padding: 3px;
+        }
+
+        .box input {
+            margin: 4px;
+            padding: 8px;
+        }
+
+        .nav ul .box {
+            border: 2px solid white;
+            margin: 9px;
+            padding: 5px;
+            height: 36px;
+            background-color: azure;
+        }
+
+        button {
+            background-color: yellow;
+        }
+        font li select{
+            width: 15px;
+            height: 9px;
+        }
+        .box1{
+            background-color: rgb(7, 7, 81);
+            height: 35px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <!-- <li>Home</li>
+            <li>About</li>
+            <li>Contact</li> -->
+            <li class="Logo"><img src="Amazon-Emblem-700x394.jpg" alt="">
+            </li>
+            <li>
+                <font color="white" size="2">Delivering to Sonipat 131001 <br><b>Update location</b>
+                </font>
+            </li>
+            <li class="box"><select name="All" id="">
+                    <option value="All">All</option>
+                    <option value="Furniture">Furniture</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Garments">Garments</option>
+                    <option value="Book and Stationary">Book and Stationary</option>
+                    <input type="text" name="textname" value="Search Amazon.in" size="80"></input>
+                    <button>search</button>
+                </select>
+            </li>
+            <font color="white"><li>EN<select name="Language" id="">
+                    <option value="English">English</option>
+                    <option value="Hindi">Hindi</option>
+                    <option value="Tamil">Tamil</option>
+                    <option value="Kanard">Kanard</option>
+                    <option value="Benbali">Benbali</option>
+                    <option value="Japanese">Japanese</option>
+                </li></font>
+            <font><li><select name="List" id=""></select>Hello,Sign in <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Account & Lists</b><select name="List" id="">
+                <option value="List">List</option>  
+                <option value="Your list">Your list</option>
+                <option value="Create a wish list">Create a wish list</option>
+                <option value="Wish from any Website">Wish from any Website</option>
+                <option value="Baby Wishlist">Baby Wishlist</option>
+                <option value="Discover Your Style">Discover Your Style</option>
+                <option value="Explore Showroom">Explore Showroom</option>
+            </select>
+            </li></font>
+            <font color="white"><li>Return<br><b>& Orders</b></li></font>
+            <font color="white"><li><b>Cart</b></li></font>
+        </ul>
+    </div>
+    <div class="box1">
+        <ol>
+            <font color="white"><li>All</li></font>
+             <font color="white"><li>Fresh</li></font>
+             <font color="white"><li>MX Player</li></font>
+             <font color="white"><li>Sell</li></font>
+             <font color="white"><li>Bestsellers</li></font>
+             <font color="white"><li>Today's Deals</li></font>
+             <font color="white"><li>Mobiles</li></font>
+             <font color="white"><li>Prime</li></font>
+             <font color="white"><li>Customer Service</li></font>
+             <font color="white"><li>New Releases</li></font>
+             <font color="white"><li>Electronics</li></font>
+             <font color="white"><li>Fashion</li></font>
+            <font color="white"><li>Amazon Pay</li></font>
+        </ol>
+    </div>
+</body>
+
+</html>
